@@ -23,7 +23,7 @@ export async function GET(request,{params}){
 
     })
 }
-
+ // patch function
 export async function PATCH(request,{params}){
     const comment = await request.json();
     const {title} = comment;
