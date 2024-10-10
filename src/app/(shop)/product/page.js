@@ -12,7 +12,7 @@ const page = async () => {
     return (
         <div>
             <h1 className='text-center'>All Product</h1>
-            <div className='grid grid-cols-4 gap-4'>
+            <div className='grid grid-cols-4 sm:grid-cols-1 md:grid-cols-2 gap-4'>
                 {allProduct.map((val,ind)=>(
                    <div key={ind} className='border p-10 border-indigo-600 rounded-md flex flex-col items-center justify-between'>
                      <Image
