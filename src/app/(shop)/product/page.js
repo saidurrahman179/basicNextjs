@@ -19,8 +19,8 @@ const page = async () => {
                       
                         src={val.image}
                         alt="Picture of the author"
-                        width={200}
-                        height={200}
+                        width={300}
+                        height={400}
                         
                         />
                         <div className='flex justify-between items-center'>
