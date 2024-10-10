@@ -33,6 +33,7 @@ const page = async({params}) => {
                         src={singlePost.image}
                         width={300}
                         height={300}
+                        alt="img"
                         />
                    </div>
                    <div className='w-2/3' >
