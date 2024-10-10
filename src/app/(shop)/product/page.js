@@ -27,8 +27,8 @@ const page = async () => {
                             <h1>{val.title}</h1>
                         
                             <div>
-                                 <Suspense fallback="Loading...........">
-                                 <Link className='p-3 bg-green-950 text-white' href={`/product/${val.id}`}>Details</Link>
+                                 <Suspense fallback="<h1>Loading page...</h1>">
+                                    <Link className='p-3 bg-green-950 text-white' href={`/product/${val.id}`}>Details</Link>
                                  </Suspense>
                             </div>
                         </div>
