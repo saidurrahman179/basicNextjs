@@ -32,7 +32,7 @@ const page = async({params}) => {
                         <Image 
                         src={singlePost.image}
                         width={300}
-                        height={300}
+                        height={400}
                         alt="img"
                         />
                    </div>
