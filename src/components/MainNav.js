@@ -20,7 +20,7 @@ const MainNav = () => {
                 </li>
 
         <li>
-                    <Link href="/student/api">all student</Link>
+                    <Link href="/student/api">student</Link>
                     
                 </li>
         <li>
