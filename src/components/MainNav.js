@@ -18,6 +18,16 @@ const MainNav = () => {
                     <Link href="/product">product</Link>
                     
                 </li>
+
+        <li>
+                    <Link href="/student/api">student</Link>
+                    
+                </li>
+        <li>
+                    <Link href="/student/f1/f2">intersept</Link>
+                    
+                </li>
+        
                 
             </ul> 
         </div>
