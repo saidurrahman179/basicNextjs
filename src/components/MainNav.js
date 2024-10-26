@@ -23,10 +23,10 @@ const MainNav = () => {
                     <Link href="/student/api">student</Link>
                     
                 </li>
-        <li>
+        {/* <li>
                     <Link href="/student/f1/f2">intersept</Link>
                     
-                </li>
+                </li> */}
         
                 
             </ul> 
