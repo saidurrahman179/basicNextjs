@@ -23,12 +23,12 @@ const handler = NextAuth({
         },
         
       },
-      // async authorize(credentials){
-      //   // if(!credentials){
-      //   //   return null;
-      //   // }
-      //   return true;
-      // },
+      async authorize(credentials){
+        if(!credentials){
+          return null;
+        }
+        return true;
+      },
     }),
   ],
 });
